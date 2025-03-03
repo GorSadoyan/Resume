@@ -1,0 +1,601 @@
+body{
+    background-color: #181818;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 4%;
+}
+
+
+
+/*Header*/
+
+header{
+    margin: 53px 0 92px 0;
+}
+
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    margin-left:25%;
+}
+
+.menu-icon{
+    margin-left: 50%;
+}
+
+Nav a{
+    color: #fff;
+    margin-right: 90px;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+    transition: 0.3s;
+}
+nav a:hover{
+    color:#a460f9;
+}
+
+nav a:last-of-type{
+    margin-right: 0;
+}
+.button-header{
+    background-color: #fff;
+    padding: 10px 25px;
+    margin-left:80px;
+    color: #181818;
+    border: none;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold ;
+    font-style: normal;
+
+    transition: 0.3s;
+}
+.button-header:hover{
+    background-color: #a460f9;
+    color:#fff
+}
+
+/*main*/
+
+
+.main-inner{
+    display: flex;
+}
+
+.main-container{
+    margin: 0 0 0 4%;
+}
+
+.left-block{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    height: 512px;
+}
+.center-block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 512px;
+}
+.man-img{
+    width:280px;
+    height: 542px;
+}
+
+
+.right-block{
+    width: 100%;
+    height: 512px;
+}
+.main-right-text{
+    margin: 10% 0 0 10%;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold ;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+.main-right-button{
+    margin-top: 10%;
+}
+    
+.button-header-inner{
+
+    border: none;
+    background-color:#a460f9;
+    padding: 10px 25px;
+    margin: 0% 0 0 10% ;
+    color:#ffffff;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold ;
+    font-style: normal;
+    transition: 0.3s;
+}
+.button-header-inner:hover{
+    background-color: #fff;
+    color: #a460f9;
+}
+
+.lorem-text{
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#fff;
+    margin-left:10%;
+}
+.button-read{
+    margin-left: 2% ;
+    background: none;
+    border: none;
+    color:#ffffff;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold ;
+    font-style: normal;
+}
+.edi2024{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+
+    position: relative;
+   
+}
+.edi-img{
+    position: absolute;
+}
+
+
+/*main line*/
+
+.line-students{
+    margin-top:30px;
+    width: 100%;
+    height: 150px;
+    background-color:#181818;
+    box-shadow: 0 0 50px black ;
+    display: flex;
+
+    
+}
+.number{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 1%;
+    font-size: 30px; 
+    color: #fff;
+}
+
+.text-number{
+    font-family: "Krub", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
+    color: #fff;
+
+}
+.left-lineblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   
+    
+}
+.center-lineblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.right-lineblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.number::first-letter {
+    color: #8A2BE2;
+}
+
+/*chalange*/
+
+.chalange{
+    display: flex; 
+    padding: 5% 4% 0 4%;
+    width: 100%;
+    height: 700px;
+}
+.center-img-oval{
+    width: 100%;
+    height: 100%;
+}
+.oval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow{
+    margin:0 4% 0 4%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.slack{
+    margin-left:-30px;  
+}
+.text-opacity-left{
+    display: flex;
+    font-family: "Krub", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: normal;
+    color:#252525; 
+    height: 100%;   
+}
+
+.text-opacity-right{
+    display: flex;
+    justify-content: end;
+    font-family: "Krub", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    font-style: normal;
+    color:#252525; 
+    height: 100%;   
+
+}
+.users{
+    margin-top:10%;
+    padding: 0 4% ;
+    width: 100%;
+
+}
+.what-thinks{
+    margin-top:-100px;
+    display: flex;
+    justify-content: center;
+    font-family: "Krub", sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+    font-style: normal;
+    color:#fff;    
+}
+.smal-text{
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+    margin-left:1%;
+    color:#aa84f9; 
+}
+.people{
+    display:flex;
+    margin-top: 2%;
+}
+.people-1{
+    width:100%;
+    height: 430px;
+    padding-top: 1%;
+}
+.img-people{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: #a460f9;
+    border-style: solid;
+    background-image: url('../image/Laura.png');
+    margin: 0 auto;
+}
+.star{
+    margin-top:10%;
+}
+
+.name-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.name-tittle{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "Krub", sans-serif;
+    font-size: 30px;
+    font-style: normal; 
+    font-weight: 700;
+    color: #fff;
+}
+.Laura-text{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    font-family: "Krub", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal; 
+    color: #fff;
+}
+
+.people-image{
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+
+
+
+ .sub{
+   display: flex;
+ 
+}
+
+ .man2 img{
+    width: 100%;
+    
+    
+ }
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-right: 4%;
+    width: 40%;
+    height: 100%;
+    background-color: #181818;
+}
+.sub-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    font-family: "Krub", sans-serif;
+    font-size: 60px;
+    font-style: normal; 
+    font-weight: 700;
+    color: #fff;
+}
+
+.sub-small-text{
+    display: flex;
+    justify-content: center;
+    font-family: "Krub", sans-serif;
+    color: #a460f9;
+    font-size: 40px;
+    font-style: normal; 
+    letter-spacing: 3px;
+    margin-top: -2%;
+}
+.Name{
+    display: flex;
+    justify-content: center; 
+    padding: 2% 3% ;
+   
+    margin-top: 6%;
+    position: relative;
+}
+.Name input{
+    background-color: #181818;
+    padding: 2%  25% 3%  3%;
+    border: 2px solid #a460f9;
+    border-radius: 7px;
+    font-size: 16px;
+    color:#fff;
+    outline:none;
+}
+.email{
+    display: flex;
+    justify-content: center; 
+    padding: 2% 3% ;
+   
+    margin-top: 2%;
+    position: relative;
+}
+.email input{
+    background-color: #181818;
+    padding: 2%  25% 3%  3%;
+    border: 2px solid #a460f9;
+    border-radius: 7px;
+    font-size: 16px;
+    color:#fff;
+    outline:none;
+}
+.Message{
+    display: flex;
+    justify-content: center; 
+    padding: 2% 3% ;
+       
+    margin-top: 2%;
+    position: relative;
+}
+.Message input{
+    background-color: #181818;
+    padding: 2%  25% 10%  3%;
+    border: 2px solid #a460f9;
+    border-radius: 7px;
+    font-size: 16px;
+    color:#fff;
+    outline:none;  
+}
+
+.send-message{
+    background-color: #8A2BE2;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    width: 130px;
+    height: 40px;
+    margin:0 auto;
+    margin-top: 50px;
+
+    transition: 0.3s;
+    
+}
+.send-message:hover{
+    background-color: #eaeaea;
+    color: #8A2BE2;
+    
+}
+
+.forms{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.send-message input{
+   background: none;
+   border: none;
+   color: #fff;
+   font-family: "Oswald", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+    
+}
+.send-message input:hover{
+    color: #8A2BE2;
+}
+/*footer*/
+
+footer{
+    display: flex;
+    background-color: #8A2BE2;
+    width: 100%;
+    height: 500px;
+    margin-top: -4px;
+    padding: 6% 4% 0 4% ;
+
+}
+.about-footer{
+    width: 70%;
+    height: 100%;
+}
+.what-we-do{
+    width: 70%;
+    height: 100%;
+}
+.border-line{
+    width: 100px;
+    margin: 1% 0 4% 0;
+   
+    border: 1px solid   #fff;
+}
+.sign-up{
+    width: 100%;
+    height: 100%;
+}
+.about-footer p{
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    font-family: "Krub", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: normal;
+    color:#fff;     
+}
+.what-we-do p{
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    font-family: "Krub", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: normal;
+    color:#fff;     
+ }
+
+footer a{
+    text-decoration: none;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color:#fff;  
+}
+.sign-up-tittle{
+  display:flex;
+  align-items: end;
+  flex-direction: column;
+}
+.sign-up p{
+
+    font-family: "Krub", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: normal;
+    color:#fff;        
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top:20%
+}
+
+.icons-border{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 10%;
+    
+}
+.icons-border img{
+    margin: 50% 50%;
+    transform: translate(-50%,-50%);
+}
+.icons p{
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color:#fff;  
+}
